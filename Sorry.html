@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sorry Miss Lexi</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:0;
+    background:pink;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial, sans-serif;
+    overflow:hidden;
+}
+
+/* Main Card */
+.card{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    width:350px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    animation:float 0.7s infinite alternate; /* fast animation ~90hz feel */
+}
+
+/* Floating animation */
+@keyframes float{
+    from{transform:translateY(-5px);}
+    to{transform:translateY(5px);}
+}
+
+/* Title animation */
+h1{
+    color:#ff4da6;
+    animation:blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0%{opacity:1;}
+    50%{opacity:0.4;}
+    100%{opacity:1;}
+}
+
+/* Hearts */
+.heart{
+    font-size:24px;
+    animation:heartBeat 0.7s infinite;
+}
+
+@keyframes heartBeat{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.3);}
+    100%{transform:scale(1);}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>I'm Sorry</h1>
+
+<p>
+Dear <b>Miss Lexi</b>,<br><br>
+
+Im so sorry miss unique, i never wanted to ignore ypu, but yestarday i falled asleep so i was unable to text you, and i was tired too, but ignoring you qas not my intention, i really respect you. Im sorry again......
+   I hope you'll forgive my mistake and b3 happy!! 😭😭😭
+</p>
+
+<div class="heart">💗 💖 💕</div>
+
+</div>
+
+</body>
+</html>
